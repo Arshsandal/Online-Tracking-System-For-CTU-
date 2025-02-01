@@ -10,7 +10,8 @@ body, ul {
     justify-content: space-between;
     align-items: center;
     padding: 15px 20px;
-    background-color: #cdcbcb; 
+    background-color: #a2e53f
+  ; 
 }
 
 .logo {
@@ -19,7 +20,7 @@ body, ul {
 }
 
 .logo img {
-    height: 60px; 
+    height: 50px; 
     margin-right: 18px;
 }
 
@@ -32,11 +33,11 @@ body, ul {
 
 .bold {
     font-weight: bold;
-    font-size: 23px;
+    font-size: 18px;
 }
 
 .s-bold {
-    font-size: 18px;
+    font-size: 16px;
     color: #666;
 }
 
@@ -47,16 +48,12 @@ body, ul {
 
 .navbar-ul a {
     text-decoration: none;
-    color: #333;
+    color: #000000;
     font-weight: bold;
 }
 
 .navbar-ul a:hover {
-    color: #02ccfe; 
-}
-
-.nav-btn{
-  padding: 8px 14px;
+    color: #ffffff; 
 }
 
 .slider-img{
@@ -67,9 +64,11 @@ body, ul {
 
 .mySlides {display: none}
 
+
 .mySlides img{
     width: 100%;
     height: 100vh;
+    filter: brightness(50%)
 }
 
 
@@ -111,8 +110,8 @@ body, ul {
   font-size: 15px;
   padding: 8px 12px;
   position: absolute;
-  bottom: 8px;
   text-align: center;
+  z-index: 1;
 }
 
 
@@ -154,4 +153,20 @@ body, ul {
 
 @media only screen and (max-width: 300px) {
   .prev, .next,.text {font-size: 11px}
+}
+
+.welcome-text{
+  margin: 120px 170px;
+}
+
+.slider-ctu-welcome{
+  font-size: 30px;
+}
+
+.welcome-p{
+  font-size: 16px;
+}
+
+.welcome-sub-p{
+  font-size: 16px;
 }
