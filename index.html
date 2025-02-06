@@ -48,11 +48,11 @@
                 <fieldset>
                   <legend>Search Buses By Bus Stops</legend>
                     <label for="from">From</label>
-                    <input type="text" name="from" placeholder="Select From Station">
+                    <select name="" id="stationFrom">
+                    </select>
                     <label for="to">To</label>
-                    <input type="text" name="to" placeholder="Select To Station">
-                    <label for="date">Departure</label>
-                    <input type="date" id="open-date" name="date" placeholder="Today">
+                    <select name="" id="selectToStation">
+                    </select>
                     <input type="submit" class="search-btn" value="Search">
                 </fieldset>
               </form>
@@ -92,6 +92,12 @@
 
             <a class="prev" onclick="plusSlides(-1)">❮</a>
             <a class="next" onclick="plusSlides(1)">❯</a>
+
+            <div class="dot-container">
+              <span class="dot" onclick="currentSlide(1)"></span>
+              <span class="dot" onclick="currentSlide(2)"></span>
+              <span class="dot" onclick="currentSlide(3)"></span>
+            </div>
             </div>
 
           </div>
@@ -107,5 +113,6 @@
 
 
     <script src="script.js"></script>
+    <script src="api.js"></script>
 </body>
 </html>

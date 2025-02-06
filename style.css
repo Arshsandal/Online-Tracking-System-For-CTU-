@@ -53,6 +53,10 @@
     font-weight: bold;
 }
 
+.navbar-ul li{
+  font-weight: 400;
+}
+
 .navbar-ul a:hover {
     color: #ffffff; 
 }
@@ -208,7 +212,7 @@
   border-radius: 10px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
   z-index: 10;
-  width: 75%;
+  width: 65%;
   text-align: center;
   padding-bottom: 30px;
 }
@@ -218,12 +222,25 @@
   flex-direction: column;
 }
 
+.search-buses fieldset{
+  display: flex;
+  justify-content: space-around;
+}
+
 .search-buses input {
   margin: 5px 0;
   padding: 8px;
   font-size: 16px;
   border: 1px solid #ccc;
   border-radius: 5px;
+}
+
+.search-buses label{
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+  font-size: 20px;
+  margin-bottom: 2px;
 }
 
 legend{
@@ -240,4 +257,16 @@ legend{
 
 .search-buses label{
   color: #fff;
+}
+
+.dot-container{
+  display: none;
+}
+
+.search-buses select{
+  padding: 0px 11px;
+  background-color: #fff;
+  border: none;
+  border-radius: 5px;
+  margin: 8px;
 }
