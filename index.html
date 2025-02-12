@@ -1,106 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Online Tracking System (CTU)</title>
-    <link rel="icon" href="Images/Logo_1.png">
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Online Tracking System (CTU)</title>
+  <link rel="icon" href="Images/Logo_1.png">
+  <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <section class="header">
-        <div class="main">
-            <nav class="navbar">
-                <div class="logo">
-                    <img src="Images/logo_white.png" alt="Logo">
-                    <div class="ctu-nav">
-                        <span class="bold">Chandigarh Transport Undertaking</span>
-                        <span class="s-bold">Chandigarh Administration, India</span>
-                    </div>
-                </div>
-                <ul class="navbar-ul">
-                    <a href=""><li>Plan Your Journey</li></a>
-                    <a href=""><li>Services</li></a>
-                    <a href=""><li>Trip Tracker</li></a>
-                    <a href=""><li>Help</li></a>
-                </ul>
-            </nav>
+  <section class="header">
+    <div class="main">
+      <nav class="navbar">
+        <div class="logo">
+          <img src="Images/logo_white.png" alt="Logo">
+          <div class="ctu-nav">
+            <span class="bold">Chandigarh Transport Undertaking</span>
+            <span class="s-bold">Chandigarh Administration, India</span>
+          </div>
         </div>
-      </section>
-      <section class="hero">
-        
+        <ul class="navbar-ul">
+          <a href="">
+            <li>Plan Your Journey</li>
+          </a>
+          <a href="">
+            <li>Services</li>
+          </a>
+          <a href="">
+            <li>Trip Tracker</li>
+          </a>
+          <a href="">
+            <li>Help</li>
+          </a>
+        </ul>
+      </nav>
+    </div>
+  </section>
 
-        <div class="slideshow-container">
-        
-          <div class="slider">
 
-            <div class="slider-content">
-              <div class="text welcome-text">
-                <h1 class="slider-ctu-welcome">Welcome to Chandigarh Transport Undertaking</h1>
-                <p class="welcome-p">Chandigarh Transport Undertaking came into existence on 01.11.1966 with a fleet strength of 30 buses only, as a result of trifurcation of Punjab Roadways at the time of re-organisation of Punjab State. Presently Head Quarters at Plot No.701 in Industrial Area, Phase-I, Chandigarh with other Depots and Workshops at Industrial Area & Sector 25. The workshop for JNnurm Buses is located adjoining to the ISBT-43.</p>
-                <p class="welcome-sub-p">The main function is to provide bus services to the general public within the city, Sub Urban area and in adjoining States i.e. Punjab, Haryana, Delhi, Himachal Pradesh, J& K, Uttar Pradesh, Rajsthan etc.</p>
-              </div>
-            </div>
-            
-            <div class="search-buses">
-              <form action="">
-                <fieldset>
-                  <legend>Search Buses By Bus Stops</legend>
-                    <label for="from">From</label>
-                    <select name="" id="stationFrom"></select>
-                    <label for="to">To</label>
-                    <select name="" id="selectToStation"></select>
-                    <input type="submit" class="search-btn" value="Search">
-                </fieldset>
-              </form>
-            </div>
 
-          
-          
-          <div class="mySlides fade">
-            <div class="numbertext">1 / 6</div>
-            <img src="Images/1.jpg" style="width:100%">
+  <section class="hero">
+    <div class="slideshow-container">
+      <div class="slider"> 
+     <div class="slider-content">
+          <div class="text welcome-text">
+            <h1 class="slider-ctu-welcome">Welcome to Chandigarh Transport Undertaking</h1>
+            <p class="welcome-p">Chandigarh Transport Undertaking came into existence on 01.11.1966 with a fleet
+              strength of 30 buses only, as a result of trifurcation of Punjab Roadways at the time of re-organisation
+              of Punjab State. Presently Head Quarters at Plot No.701 in Industrial Area, Phase-I, Chandigarh with other
+              Depots and Workshops at Industrial Area & Sector 25. The workshop for JNnurm Buses is located adjoining to
+              the ISBT-43.</p>
           </div>
-          
-            <div class="mySlides fade">
-              <div class="numbertext">2 / 6</div>
-              <img src="Images/2.jpg" style="width:100%">
-            </div>
-            
-            <div class="mySlides fade">
-              <div class="numbertext">3 / 6</div>
-              <img src="Images/3.jpg" style="width:100%">
-            </div>
-            
-            <div class="mySlides fade">
-              <div class="numbertext">4 / 6</div>
-              <img src="Images/4.jpg" style="width:100%">
-            </div>
+        </div>
 
-            <div class="mySlides fade">
-              <div class="numbertext">5 / 6</div>
-              <img src="Images/5.jpg" style="width:100%">
-            </div>
-
-            <div class="mySlides fade">
-              <div class="numbertext">6 / 6</div>
-              <img src="Images/slide-3.jpg" style="width:100%">
-            </div>
-
-            <a class="prev" onclick="plusSlides(-1)">❮</a>
-            <a class="next" onclick="plusSlides(1)">❯</a>
-
-            <div class="dot-container">
-              <span class="dot" onclick="currentSlide(1)"></span>
-              <span class="dot" onclick="currentSlide(2)"></span>
-              <span class="dot" onclick="currentSlide(3)"></span>
-            </div>
-            </div>
-
-          </div>
-
-
-    </section>
+        <div class="search-buses">
+          <form action="">
+            <fieldset>
+              <legend>Search Buses By Bus Stops</legend>
+              <label for="from">From</label>
+              <select name="" id="stationFrom"></select>
+              <label for="to">To</label>
+              <select name="" id="selectToStation"></select>
+              <input type="submit" class="search-btn" value="Search">
+            </fieldset>
+          </form>
+        </div> 
+    </div>
+    </div> 
+  </section>
 
 
 
@@ -109,7 +77,8 @@
 
 
 
-    <script src="script.js"></script>
-    <script src="api.js"></script>
+  <script src="script.js"></script>
+  <script src="api.js"></script>
 </body>
+
 </html>
