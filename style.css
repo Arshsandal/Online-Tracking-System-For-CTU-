@@ -482,3 +482,12 @@ legend {
   justify-content: right;
   display: flex;
 }
+
+
+.user{
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+  position: relative;
+  bottom: 2px;
+}
