@@ -268,6 +268,12 @@ legend {
       padding: 10px;
   }
 
+  .logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
   .hero{
     height: 100vh;
     width: 100vw;
